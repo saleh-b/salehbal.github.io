@@ -3,6 +3,7 @@ new fullpage('#fullpage', {
   autoScrolling: true,
   scrollHorizontally: true,
   sectionsColor: ['#00a6fbff', '#0582caff', '#006494ff', '#003554ff', '#051923ff'],
+  anchors: ['section1', 'section2', 'section3', 'section4'],
 });
 // /* CSS HEX */
 // --blue-jeans: #00a6fbff;
