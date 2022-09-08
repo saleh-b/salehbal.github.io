@@ -1,0 +1,17 @@
+body {
+  font-family: "Roboto Mono", monospace;
+}
+
+.my_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro_div {
+  width: 30%;
+  height: 30%;
+}
+.intro_div h1 {
+  font-size: 48px;
+}/*# sourceMappingURL=main.css.map */

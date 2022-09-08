@@ -3,29 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.10/fullpage.min.css"
+      integrity="sha512-5MGDCtVeXPQtSGLs2lG9mkb1tWc35ZSaBgJca+YMJxOIgLUaopFR28hmwJCk0W2KR8Ydt7vg3E+KS5XwbNFmMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
-    <script defer src="./script.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.10/fullpage.min.js"
+      integrity="sha512-Xaje5GN/tSuxnQNdbOMppDPWWpPMN0WGfay1St6ckxBqnm3hB66iVqBbLXmujadwsH9KOUVHJZ3GR9QpAEF1GQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      defer
+    ></script>
+    <script type="module" defer type="text/javascript" src="./main.js"></script>
   </head>
-  <body style="overflow-y: hidden">
-    <section class="section bcg-orange">
-      <div>
-        <h1>SalehBal</h1>
-        <h2>Web dev</h2>
+  <body>
+    <div id="fullpage">
+      <div class="section my_section">
+        <div class="intro_div">
+          <h1>SalehBal</h1>
+          <p>WebDev</p>
+        </div>
       </div>
-    </section>
-    <section class="section bcg-lemon-meringue">
-      <div>
-        <h1>SalehBal</h1>
-        <h2>Web dev</h2>
-      </div>
-    </section>
+      <div class="section my_section">Some section</div>
+      <div class="section my_section">Some section</div>
+      <div class="section my_section">Some section</div>
+    </div>
   </body>
 </html>
