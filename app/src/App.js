@@ -9,8 +9,8 @@ const App = () => (
     anchors={anchors}
     navigation
     navigationTooltips={anchors}
-    navigat
-    sectionsColor={['#23272E', '#1B1E24', '#1D2126']}
+    // navigat
+    sectionsColor={['#23272E', '#1B1E24', '#1D2126', '#23272E']}
     onLeave={(origin, destination, direction) => {}}
     render={({ state, fullpageApi }) => {
       return (
