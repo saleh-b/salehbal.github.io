@@ -23,8 +23,8 @@ body {
   font-size: 48px;
 }
 #profileImg {
-  width: 300px;
-  height: 300px;
+  width: 70%;
+  height: auto;
   border-radius: 100%;
   grid-row: span 2;
 }
