@@ -18,7 +18,7 @@ function sendEmail() {
 
 $('#send_email_btn').click(function (event) {
   // console.log(event);
-  // debugger;
+  debugger;
   event.preventDefault();
-  sendEmail();
+  // sendEmail();
 });
