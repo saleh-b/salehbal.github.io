@@ -7,13 +7,16 @@ emailjs.init('cSd3aq2p237q1DKup');
 
 $('#email_form_submit').submit(function (event) {
   event.preventDefault();
-  emailjs
-    .send('service_bqlcpje', 'template_jqa40mg', {
-      from_name: `Portfolio ${$('#name').val()}`,
-      email_id: $('#email').val(),
-      message: $('#message').val(),
-    })
-    .then(() => {
-      alert('Email successfully sent.');
-    });
+  const data = {
+    from_name: `${$('#name').val()}`,
+    email_id: $('#email').val(),
+    message: $('#message').val(),
+  };
+  if (!(data.email_id && data.from_name && data.message)) {
+    alert('Please fill all the fields in the form!');
+    return;
+  }
+  emailjs.send('service_bqlcpje', 'template_jqa40mg', data).then(() => {
+    alert('Email successfully sent.');
+  });
 });
