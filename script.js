@@ -6,7 +6,6 @@ new TypeIt('#title_animation', {
 emailjs.init('cSd3aq2p237q1DKup');
 
 $('#email_form_submit').submit(function (event) {
-  debugger;
   event.preventDefault();
   emailjs
     .send('service_bqlcpje', 'template_jqa40mg', {
